@@ -11,7 +11,7 @@ function noData () {
 
 function consoleAuthorInfo () {
   console.log()
-  console.log(`  📮  Author Info:`)
+  console.log(`  📮 Author Info:`)
   console.log(`    Tao-Quixote`)
   console.log(`    GitHub: https://github.com/Tao-Quixote`)
   console.log(`    e-mail: <web.taox@gmail.com>`)
