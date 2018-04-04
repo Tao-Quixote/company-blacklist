@@ -1,0 +1,36 @@
+{
+  "sd": {
+    "zh": "山东",
+    "companies": [
+      {
+        "cname": "The name of the company.",
+        "title": "title",
+        "curl": "https://www.curl.com",
+        "caddr": "The physical address of the company.",
+        "affair": "What had happend so that company deserves to be listed on the blacklist?",
+        "path": "path/to/the/image"
+      }
+    ]
+  },
+  "cq": {
+    "zh": "重庆",
+    "companies": [
+      {
+        "cname": "The name of the company.",
+        "title": "title",
+        "curl": "https://www.curl.com",
+        "caddr": "The physical address of the company.",
+        "affair": "What had happend so that company deserves to be listed on the blacklist?",
+        "path": "path/to/the/image"
+      },
+      {
+        "cname": "The name of the company.",
+        "title": "title",
+        "curl": "https://www.curl.com",
+        "caddr": "The physical address of the company.",
+        "affair": "What had happend so that company deserves to be listed on the blacklist?",
+        "path": "path/to/the/image"
+      }
+    ]
+  }
+}

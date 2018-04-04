@@ -1,0 +1,2 @@
+require('./tools').consoleAuthorInfo()
+

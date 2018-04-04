@@ -1,0 +1,34 @@
+{
+  "name": "company-blacklist",
+  "version": "0.0.1",
+  "description": "程序猿求职避坑指北",
+  "main": "index.js",
+  "bin": {
+    "cbl": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix packages/**/*.js packages/**/bin/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tao-Quixote/company-blacklist.git"
+  },
+  "keywords": [
+    "company",
+    "blacklist"
+  ],
+  "author": "TaoQuixote <web.taox@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tao-Quixote/company-blacklist/issues"
+  },
+  "homepage": "https://github.com/Tao-Quixote/company-blacklist#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.15.1"
+  }
+}
