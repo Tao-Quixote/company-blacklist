@@ -18,7 +18,20 @@ function consoleAuthorInfo () {
   console.log()
 }
 
+function genLine (num, sym) {
+  let str = ''
+  if (process.version < 'v8') {
+    while(num-- > 0) {
+      str += sym
+    }
+    return str
+  }
+
+  return ''.padEnd(num, sym)
+}
+
 module.exports = {
   noData,
-  consoleAuthorInfo
+  consoleAuthorInfo,
+  genLine
 }

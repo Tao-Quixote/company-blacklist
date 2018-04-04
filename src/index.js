@@ -2,6 +2,7 @@
 const program = require('commander')
 const chalk = require('chalk')
 const loadOptions = require('./lib/loadOptions')
+const genLine = require('./lib/tools').genLine
 
 program
   .version(require('../package').version)
@@ -26,7 +27,7 @@ if (!process.argv.slice(2).length) {
   program.outputHelp()
   console.log(`  🎉  Enjoy the usage of the tool, and find a better job.`)
   console.log()
-  console.log(`  ${''.padEnd(20, '-')}`)
+  console.log(`  ${genLine(20, '-')}`)
   require('./lib/authorInfo')
 }
 

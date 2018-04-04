@@ -1,4 +1,5 @@
 const chalk = require('chalk')
+const genLine = require('./tools').genLine
 
 // output single one
 function drawCompany (c) {
@@ -24,7 +25,7 @@ function forEachCompanies (cs) {
 }
 
 module.exports = (province = '无', companies) => {
-  console.log(`${'='.padEnd(40, '=')}`)
+  console.log(`${genLine(40, '=')}`)
 
   console.log(`省份：${province}`)
 
